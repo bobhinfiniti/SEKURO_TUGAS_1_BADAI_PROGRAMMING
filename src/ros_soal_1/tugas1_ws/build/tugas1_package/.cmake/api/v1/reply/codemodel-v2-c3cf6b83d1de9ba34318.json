@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-9e4a79e2804703b6ac02.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "tugas1_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "chatter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-chatter-8e234f2b1fa009c428c4.json",
+					"name" : "chatter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "display::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-display-ccd9e8f7bb6f97f4f003.json",
+					"name" : "display",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tugas1_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tugas1_package_uninstall-57143fb88a2551d31e48.json",
+					"name" : "tugas1_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-5251da9513a7c9ab808d.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/badai22/tugas1_ws/build/tugas1_package",
+		"source" : "/home/badai22/tugas1_ws/src/tugas1_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

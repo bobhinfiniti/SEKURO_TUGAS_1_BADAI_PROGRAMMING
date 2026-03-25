@@ -1,0 +1,17 @@
+/home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/chatter
+/home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/display
+/home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/package_run_dependencies/tugas1_package
+/home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/parent_prefix_path/tugas1_package
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.sh
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.dsv
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.sh
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.dsv
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.bash
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.sh
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.zsh
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.dsv
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.dsv
+/home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/packages/tugas1_package
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig.cmake
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig-version.cmake
+/home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.xml

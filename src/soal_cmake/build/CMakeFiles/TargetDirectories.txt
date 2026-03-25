@@ -1,0 +1,7 @@
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/robot.dir
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/edit_cache.dir
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/rebuild_cache.dir
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/list_install_components.dir
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/install.dir
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/install/local.dir
+/home/badai22/testing/src/soal_cmake/build/CMakeFiles/install/strip.dir

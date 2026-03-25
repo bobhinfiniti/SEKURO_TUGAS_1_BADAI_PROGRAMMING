@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/badai22/tugas1_ws/build/tugas1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/badai22/tugas1_ws/build/tugas1_package -- -j12 -l12
+[0.136s] [35m[1mConsolidate compiler generated dependencies of target chatter[0m
+[0.142s] [35m[1mConsolidate compiler generated dependencies of target display[0m
+[0.182s] [ 25%] [32mBuilding CXX object CMakeFiles/chatter.dir/src/chatter.cpp.o[0m
+[0.195s] [ 50%] [32mBuilding CXX object CMakeFiles/display.dir/src/display.cpp.o[0m
+[12.104s] [ 75%] [32m[1mLinking CXX executable chatter[0m
+[12.731s] [ 75%] Built target chatter
+[21.348s] [100%] [32m[1mLinking CXX executable display[0m
+[22.357s] [100%] Built target display
+[22.381s] Invoked command in '/home/badai22/tugas1_ws/build/tugas1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/badai22/tugas1_ws/build/tugas1_package -- -j12 -l12
+[22.409s] Invoking command in '/home/badai22/tugas1_ws/build/tugas1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/badai22/tugas1_ws/build/tugas1_package
+[22.420s] -- Install configuration: ""
+[22.423s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/lib/$tugas1_package/chatter
+[22.428s] -- Set runtime path of "/home/badai22/tugas1_ws/install/tugas1_package/lib/$tugas1_package/chatter" to ""
+[22.428s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/lib/$tugas1_package/display
+[22.438s] -- Set runtime path of "/home/badai22/tugas1_ws/install/tugas1_package/lib/$tugas1_package/display" to ""
+[22.441s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/package_run_dependencies/tugas1_package
+[22.442s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/parent_prefix_path/tugas1_package
+[22.444s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.sh
+[22.444s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.dsv
+[22.445s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.sh
+[22.445s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.dsv
+[22.446s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.bash
+[22.447s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.sh
+[22.447s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.zsh
+[22.448s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.dsv
+[22.448s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.dsv
+[22.449s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/packages/tugas1_package
+[22.450s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig.cmake
+[22.451s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig-version.cmake
+[22.451s] -- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.xml
+[22.456s] Invoked command in '/home/badai22/tugas1_ws/build/tugas1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/badai22/tugas1_ws/build/tugas1_package

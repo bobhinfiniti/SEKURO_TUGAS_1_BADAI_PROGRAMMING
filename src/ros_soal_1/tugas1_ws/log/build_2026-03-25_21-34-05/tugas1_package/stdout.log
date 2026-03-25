@@ -1,0 +1,26 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/chatter.dir/src/chatter.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/display.dir/src/display.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable chatter[0m
+[ 75%] Built target chatter
+[100%] [32m[1mLinking CXX executable display[0m
+[100%] Built target display
+-- Install configuration: ""
+-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/chatter
+-- Set runtime path of "/home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/chatter" to ""
+-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/display
+-- Set runtime path of "/home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/display" to ""
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/package_run_dependencies/tugas1_package
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/parent_prefix_path/tugas1_package
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.sh
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.sh
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.dsv
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.bash
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.sh
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.zsh
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.dsv
+-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.dsv
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/packages/tugas1_package
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig.cmake
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig-version.cmake
+-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.xml

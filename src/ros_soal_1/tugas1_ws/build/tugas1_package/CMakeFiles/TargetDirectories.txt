@@ -1,0 +1,11 @@
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/uninstall.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/tugas1_package_uninstall.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/chatter.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/display.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/test.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/edit_cache.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/rebuild_cache.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/list_install_components.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/install.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/install/local.dir
+/home/badai22/tugas1_ws/build/tugas1_package/CMakeFiles/install/strip.dir

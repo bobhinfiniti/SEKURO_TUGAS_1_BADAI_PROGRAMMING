@@ -1,0 +1,4 @@
+Invoking command in '/home/badai22/tugas1_ws/build/tugas1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/badai22/tugas1_ws/build/tugas1_package -- -j12 -l12
+Invoked command in '/home/badai22/tugas1_ws/build/tugas1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/badai22/tugas1_ws/build/tugas1_package -- -j12 -l12
+Invoking command in '/home/badai22/tugas1_ws/build/tugas1_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/badai22/tugas1_ws/build/tugas1_package
+Invoked command in '/home/badai22/tugas1_ws/build/tugas1_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/badai22/tugas1_ws/build/tugas1_package

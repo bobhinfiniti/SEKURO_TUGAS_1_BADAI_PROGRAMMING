@@ -1,0 +1,8 @@
+[01m[K/home/badai22/tugas1_ws/src/tugas1_package/src/display.cpp:[m[K In member function ‘[01m[Kvoid GenericNode::timer_callback()[m[K’:
+[01m[K/home/badai22/tugas1_ws/src/tugas1_package/src/display.cpp:42:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_publisher_t[m[K’?
+   42 |        [01;31m[Kpublisher_[m[K->publish(message);
+      |        [01;31m[K^~~~~~~~~~[m[K
+      |        [32m[Krmw_publisher_t[m[K
+gmake[2]: *** [CMakeFiles/display.dir/build.make:76: CMakeFiles/display.dir/src/display.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/display.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

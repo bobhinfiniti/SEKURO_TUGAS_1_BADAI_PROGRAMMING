@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/badai22/testing/src/soal_cmake/build",
+  "command": "/usr/bin/c++  -I/home/badai22/testing/src/soal_cmake/include -I\"/home/badai22/testing/src/soal_cmake/(\" -I\"/home/badai22/testing/src/soal_cmake/)\" -g -o CMakeFiles/robot.dir/main.cpp.o -c /home/badai22/testing/src/soal_cmake/main.cpp",
+  "file": "/home/badai22/testing/src/soal_cmake/main.cpp"
+},
+{
+  "directory": "/home/badai22/testing/src/soal_cmake/build",
+  "command": "/usr/bin/c++  -I/home/badai22/testing/src/soal_cmake/include -I\"/home/badai22/testing/src/soal_cmake/(\" -I\"/home/badai22/testing/src/soal_cmake/)\" -g -o CMakeFiles/robot.dir/src/robot.cpp.o -c /home/badai22/testing/src/soal_cmake/src/robot.cpp",
+  "file": "/home/badai22/testing/src/soal_cmake/src/robot.cpp"
+},
+{
+  "directory": "/home/badai22/testing/src/soal_cmake/build",
+  "command": "/usr/bin/c++  -I/home/badai22/testing/src/soal_cmake/include -I\"/home/badai22/testing/src/soal_cmake/(\" -I\"/home/badai22/testing/src/soal_cmake/)\" -g -o CMakeFiles/robot.dir/src/robotair.cpp.o -c /home/badai22/testing/src/soal_cmake/src/robotair.cpp",
+  "file": "/home/badai22/testing/src/soal_cmake/src/robotair.cpp"
+}
+]

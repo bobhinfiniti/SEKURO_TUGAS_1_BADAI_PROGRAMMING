@@ -1,0 +1,345 @@
+[0.000000] (-) TimerEvent: {}
+[0.002123] (tugas1_package) JobQueued: {'identifier': 'tugas1_package', 'dependencies': OrderedDict()}
+[0.002606] (tugas1_package) JobStarted: {'identifier': 'tugas1_package'}
+[0.025873] (tugas1_package) JobProgress: {'identifier': 'tugas1_package', 'progress': 'cmake'}
+[0.028966] (tugas1_package) JobProgress: {'identifier': 'tugas1_package', 'progress': 'build'}
+[0.031268] (tugas1_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/badai22/tugas1_ws/build/tugas1_package', '--', '-j12', '-l12'], 'cwd': '/home/badai22/tugas1_ws/build/tugas1_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'badai22'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/badai22'), ('OLDPWD', '/home/badai22'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'badai22'), ('NAME', 'DESKTOP-MUIM7FF'), ('WSL_INTEROP', '/run/WSL/1025_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/TDM-GCC-64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/badai/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/badai/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'a3d11395-7437-4bc1-b899-ad41221470f2'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/badai22/tugas1_ws/build/tugas1_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099983] (-) TimerEvent: {}
+[0.198366] (tugas1_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.200434] (-) TimerEvent: {}
+[0.301337] (-) TimerEvent: {}
+[0.402028] (-) TimerEvent: {}
+[0.502945] (-) TimerEvent: {}
+[0.531616] (tugas1_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.604515] (-) TimerEvent: {}
+[0.705600] (-) TimerEvent: {}
+[0.807676] (-) TimerEvent: {}
+[0.909914] (-) TimerEvent: {}
+[1.009640] (tugas1_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.010183] (-) TimerEvent: {}
+[1.021104] (tugas1_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.049515] (tugas1_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.092552] (tugas1_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.110672] (-) TimerEvent: {}
+[1.139874] (tugas1_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.213686] (-) TimerEvent: {}
+[1.252118] (tugas1_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.258596] (tugas1_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.314189] (-) TimerEvent: {}
+[1.423270] (-) TimerEvent: {}
+[1.532392] (-) TimerEvent: {}
+[1.641591] (-) TimerEvent: {}
+[1.750740] (-) TimerEvent: {}
+[1.859970] (-) TimerEvent: {}
+[1.969081] (-) TimerEvent: {}
+[2.078159] (-) TimerEvent: {}
+[2.187201] (-) TimerEvent: {}
+[2.296411] (-) TimerEvent: {}
+[2.405219] (-) TimerEvent: {}
+[2.514286] (-) TimerEvent: {}
+[2.622198] (-) TimerEvent: {}
+[2.731359] (-) TimerEvent: {}
+[2.840445] (-) TimerEvent: {}
+[2.949603] (-) TimerEvent: {}
+[3.058604] (-) TimerEvent: {}
+[3.167663] (-) TimerEvent: {}
+[3.276701] (-) TimerEvent: {}
+[3.385667] (-) TimerEvent: {}
+[3.494565] (-) TimerEvent: {}
+[3.603693] (-) TimerEvent: {}
+[3.712895] (-) TimerEvent: {}
+[3.821929] (-) TimerEvent: {}
+[3.931147] (-) TimerEvent: {}
+[4.040175] (-) TimerEvent: {}
+[4.149357] (-) TimerEvent: {}
+[4.258516] (-) TimerEvent: {}
+[4.367635] (-) TimerEvent: {}
+[4.476851] (-) TimerEvent: {}
+[4.585828] (-) TimerEvent: {}
+[4.694855] (-) TimerEvent: {}
+[4.801644] (-) TimerEvent: {}
+[4.910687] (-) TimerEvent: {}
+[5.019641] (-) TimerEvent: {}
+[5.125773] (-) TimerEvent: {}
+[5.234794] (-) TimerEvent: {}
+[5.343739] (-) TimerEvent: {}
+[5.452914] (-) TimerEvent: {}
+[5.561962] (-) TimerEvent: {}
+[5.670560] (-) TimerEvent: {}
+[5.779662] (-) TimerEvent: {}
+[5.884572] (-) TimerEvent: {}
+[5.987014] (-) TimerEvent: {}
+[6.096071] (-) TimerEvent: {}
+[6.205042] (-) TimerEvent: {}
+[6.309525] (-) TimerEvent: {}
+[6.418709] (-) TimerEvent: {}
+[6.527945] (-) TimerEvent: {}
+[6.636948] (-) TimerEvent: {}
+[6.745542] (-) TimerEvent: {}
+[6.854591] (-) TimerEvent: {}
+[6.963806] (-) TimerEvent: {}
+[7.066431] (-) TimerEvent: {}
+[7.175603] (-) TimerEvent: {}
+[7.284699] (-) TimerEvent: {}
+[7.393842] (-) TimerEvent: {}
+[7.502971] (-) TimerEvent: {}
+[7.607599] (-) TimerEvent: {}
+[7.716757] (-) TimerEvent: {}
+[7.825762] (-) TimerEvent: {}
+[7.934956] (-) TimerEvent: {}
+[8.044119] (-) TimerEvent: {}
+[8.153309] (-) TimerEvent: {}
+[8.262407] (-) TimerEvent: {}
+[8.371523] (-) TimerEvent: {}
+[8.480537] (-) TimerEvent: {}
+[8.589512] (-) TimerEvent: {}
+[8.698438] (-) TimerEvent: {}
+[8.805536] (-) TimerEvent: {}
+[8.914434] (-) TimerEvent: {}
+[9.023467] (-) TimerEvent: {}
+[9.132676] (-) TimerEvent: {}
+[9.241721] (-) TimerEvent: {}
+[9.350751] (-) TimerEvent: {}
+[9.459751] (-) TimerEvent: {}
+[9.562050] (-) TimerEvent: {}
+[9.671065] (-) TimerEvent: {}
+[9.780124] (-) TimerEvent: {}
+[9.889150] (-) TimerEvent: {}
+[9.997851] (-) TimerEvent: {}
+[10.101312] (-) TimerEvent: {}
+[10.202059] (-) TimerEvent: {}
+[10.302883] (-) TimerEvent: {}
+[10.403824] (-) TimerEvent: {}
+[10.506558] (-) TimerEvent: {}
+[10.609186] (-) TimerEvent: {}
+[10.711798] (-) TimerEvent: {}
+[10.814496] (-) TimerEvent: {}
+[10.917459] (-) TimerEvent: {}
+[11.018430] (-) TimerEvent: {}
+[11.119423] (-) TimerEvent: {}
+[11.228292] (-) TimerEvent: {}
+[11.337220] (-) TimerEvent: {}
+[11.446300] (-) TimerEvent: {}
+[11.555406] (-) TimerEvent: {}
+[11.664572] (-) TimerEvent: {}
+[11.773569] (-) TimerEvent: {}
+[11.882533] (-) TimerEvent: {}
+[11.991634] (-) TimerEvent: {}
+[12.100933] (-) TimerEvent: {}
+[12.204483] (-) TimerEvent: {}
+[12.313684] (-) TimerEvent: {}
+[12.422784] (-) TimerEvent: {}
+[12.531887] (-) TimerEvent: {}
+[12.633924] (-) TimerEvent: {}
+[12.735322] (-) TimerEvent: {}
+[12.836249] (-) TimerEvent: {}
+[12.944635] (-) TimerEvent: {}
+[13.053686] (-) TimerEvent: {}
+[13.162855] (-) TimerEvent: {}
+[13.272017] (-) TimerEvent: {}
+[13.380770] (-) TimerEvent: {}
+[13.483501] (-) TimerEvent: {}
+[13.592729] (-) TimerEvent: {}
+[13.696543] (-) TimerEvent: {}
+[13.805779] (-) TimerEvent: {}
+[13.888405] (tugas1_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[13.907494] (-) TimerEvent: {}
+[14.016732] (-) TimerEvent: {}
+[14.121671] (-) TimerEvent: {}
+[14.134064] (tugas1_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[14.193615] (tugas1_package) StdoutLine: {'line': b'-- Generating done\n'}
+[14.208004] (tugas1_package) StdoutLine: {'line': b'-- Build files have been written to: /home/badai22/tugas1_ws/build/tugas1_package\n'}
+[14.223037] (-) TimerEvent: {}
+[14.281601] (tugas1_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target chatter\x1b[0m\n'}
+[14.282347] (tugas1_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target display\x1b[0m\n'}
+[14.317706] (tugas1_package) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/display.dir/src/display.cpp.o\x1b[0m\n'}
+[14.319827] (tugas1_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/chatter.dir/src/chatter.cpp.o\x1b[0m\n'}
+[14.323487] (-) TimerEvent: {}
+[14.424371] (-) TimerEvent: {}
+[14.525582] (-) TimerEvent: {}
+[14.626282] (-) TimerEvent: {}
+[14.727087] (-) TimerEvent: {}
+[14.828056] (-) TimerEvent: {}
+[14.928914] (-) TimerEvent: {}
+[15.033620] (-) TimerEvent: {}
+[15.135615] (-) TimerEvent: {}
+[15.239524] (-) TimerEvent: {}
+[15.340362] (-) TimerEvent: {}
+[15.442640] (-) TimerEvent: {}
+[15.544996] (-) TimerEvent: {}
+[15.647330] (-) TimerEvent: {}
+[15.749397] (-) TimerEvent: {}
+[15.858432] (-) TimerEvent: {}
+[15.966919] (-) TimerEvent: {}
+[16.075989] (-) TimerEvent: {}
+[16.185011] (-) TimerEvent: {}
+[16.287698] (-) TimerEvent: {}
+[16.396932] (-) TimerEvent: {}
+[16.505834] (-) TimerEvent: {}
+[16.614800] (-) TimerEvent: {}
+[16.723719] (-) TimerEvent: {}
+[16.832785] (-) TimerEvent: {}
+[16.941766] (-) TimerEvent: {}
+[17.050122] (-) TimerEvent: {}
+[17.159031] (-) TimerEvent: {}
+[17.267959] (-) TimerEvent: {}
+[17.375925] (-) TimerEvent: {}
+[17.484798] (-) TimerEvent: {}
+[17.593778] (-) TimerEvent: {}
+[17.702758] (-) TimerEvent: {}
+[17.811739] (-) TimerEvent: {}
+[17.920831] (-) TimerEvent: {}
+[18.028216] (-) TimerEvent: {}
+[18.136876] (-) TimerEvent: {}
+[18.245904] (-) TimerEvent: {}
+[18.354917] (-) TimerEvent: {}
+[18.464022] (-) TimerEvent: {}
+[18.573105] (-) TimerEvent: {}
+[18.682142] (-) TimerEvent: {}
+[18.791312] (-) TimerEvent: {}
+[18.900367] (-) TimerEvent: {}
+[19.009337] (-) TimerEvent: {}
+[19.118293] (-) TimerEvent: {}
+[19.226786] (-) TimerEvent: {}
+[19.335730] (-) TimerEvent: {}
+[19.444715] (-) TimerEvent: {}
+[19.553698] (-) TimerEvent: {}
+[19.662660] (-) TimerEvent: {}
+[19.771613] (-) TimerEvent: {}
+[19.880564] (-) TimerEvent: {}
+[19.989462] (-) TimerEvent: {}
+[20.098443] (-) TimerEvent: {}
+[20.207638] (-) TimerEvent: {}
+[20.316589] (-) TimerEvent: {}
+[20.425493] (-) TimerEvent: {}
+[20.534448] (-) TimerEvent: {}
+[20.643529] (-) TimerEvent: {}
+[20.745828] (-) TimerEvent: {}
+[20.854812] (-) TimerEvent: {}
+[20.959704] (-) TimerEvent: {}
+[21.068683] (-) TimerEvent: {}
+[21.177637] (-) TimerEvent: {}
+[21.286612] (-) TimerEvent: {}
+[21.395180] (-) TimerEvent: {}
+[21.504294] (-) TimerEvent: {}
+[21.613388] (-) TimerEvent: {}
+[21.722601] (-) TimerEvent: {}
+[21.831681] (-) TimerEvent: {}
+[21.940813] (-) TimerEvent: {}
+[22.049753] (-) TimerEvent: {}
+[22.158784] (-) TimerEvent: {}
+[22.268087] (-) TimerEvent: {}
+[22.377245] (-) TimerEvent: {}
+[22.485610] (-) TimerEvent: {}
+[22.594497] (-) TimerEvent: {}
+[22.703418] (-) TimerEvent: {}
+[22.812570] (-) TimerEvent: {}
+[22.921501] (-) TimerEvent: {}
+[23.030405] (-) TimerEvent: {}
+[23.139410] (-) TimerEvent: {}
+[23.248387] (-) TimerEvent: {}
+[23.357356] (-) TimerEvent: {}
+[23.377384] (tugas1_package) StdoutLine: {'line': b'[ 75%] \x1b[32m\x1b[1mLinking CXX executable chatter\x1b[0m\n'}
+[23.464233] (-) TimerEvent: {}
+[23.573057] (-) TimerEvent: {}
+[23.682027] (-) TimerEvent: {}
+[23.788752] (-) TimerEvent: {}
+[23.892630] (-) TimerEvent: {}
+[24.001523] (-) TimerEvent: {}
+[24.053372] (tugas1_package) StdoutLine: {'line': b'[ 75%] Built target chatter\n'}
+[24.101852] (-) TimerEvent: {}
+[24.208066] (-) TimerEvent: {}
+[24.317196] (-) TimerEvent: {}
+[24.426315] (-) TimerEvent: {}
+[24.535712] (-) TimerEvent: {}
+[24.644611] (-) TimerEvent: {}
+[24.747032] (-) TimerEvent: {}
+[24.855990] (-) TimerEvent: {}
+[24.964981] (-) TimerEvent: {}
+[25.074140] (-) TimerEvent: {}
+[25.183258] (-) TimerEvent: {}
+[25.292361] (-) TimerEvent: {}
+[25.401414] (-) TimerEvent: {}
+[25.510531] (-) TimerEvent: {}
+[25.619726] (-) TimerEvent: {}
+[25.728887] (-) TimerEvent: {}
+[25.838173] (-) TimerEvent: {}
+[25.947264] (-) TimerEvent: {}
+[26.056121] (-) TimerEvent: {}
+[26.165165] (-) TimerEvent: {}
+[26.274111] (-) TimerEvent: {}
+[26.383093] (-) TimerEvent: {}
+[26.492011] (-) TimerEvent: {}
+[26.601082] (-) TimerEvent: {}
+[26.710173] (-) TimerEvent: {}
+[26.818639] (-) TimerEvent: {}
+[26.927556] (-) TimerEvent: {}
+[27.036606] (-) TimerEvent: {}
+[27.145696] (-) TimerEvent: {}
+[27.254554] (-) TimerEvent: {}
+[27.363458] (-) TimerEvent: {}
+[27.472389] (-) TimerEvent: {}
+[27.581440] (-) TimerEvent: {}
+[27.690566] (-) TimerEvent: {}
+[27.799714] (-) TimerEvent: {}
+[27.908854] (-) TimerEvent: {}
+[28.018021] (-) TimerEvent: {}
+[28.126915] (-) TimerEvent: {}
+[28.235925] (-) TimerEvent: {}
+[28.344844] (-) TimerEvent: {}
+[28.453695] (-) TimerEvent: {}
+[28.562686] (-) TimerEvent: {}
+[28.671678] (-) TimerEvent: {}
+[28.776644] (-) TimerEvent: {}
+[28.885682] (-) TimerEvent: {}
+[28.994468] (-) TimerEvent: {}
+[29.103453] (-) TimerEvent: {}
+[29.212669] (-) TimerEvent: {}
+[29.321641] (-) TimerEvent: {}
+[29.430749] (-) TimerEvent: {}
+[29.539788] (-) TimerEvent: {}
+[29.648809] (-) TimerEvent: {}
+[29.757864] (-) TimerEvent: {}
+[29.861190] (-) TimerEvent: {}
+[29.970272] (-) TimerEvent: {}
+[30.079001] (-) TimerEvent: {}
+[30.186608] (-) TimerEvent: {}
+[30.295707] (-) TimerEvent: {}
+[30.345427] (tugas1_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable display\x1b[0m\n'}
+[30.400122] (-) TimerEvent: {}
+[30.509472] (-) TimerEvent: {}
+[30.616770] (-) TimerEvent: {}
+[30.725901] (-) TimerEvent: {}
+[30.829686] (-) TimerEvent: {}
+[30.938638] (-) TimerEvent: {}
+[31.047666] (-) TimerEvent: {}
+[31.156940] (-) TimerEvent: {}
+[31.265921] (-) TimerEvent: {}
+[31.269302] (tugas1_package) StdoutLine: {'line': b'[100%] Built target display\n'}
+[31.291292] (tugas1_package) CommandEnded: {'returncode': 0}
+[31.294289] (tugas1_package) JobProgress: {'identifier': 'tugas1_package', 'progress': 'install'}
+[31.313301] (tugas1_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/badai22/tugas1_ws/build/tugas1_package'], 'cwd': '/home/badai22/tugas1_ws/build/tugas1_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'badai22'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{4ff56d04-d9cf-57ea-bae2-ad396374e7e3}'), ('HOME', '/home/badai22'), ('OLDPWD', '/home/badai22'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-22.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'badai22'), ('NAME', 'DESKTOP-MUIM7FF'), ('WSL_INTEROP', '/run/WSL/1025_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/dotnet/:/mnt/c/TDM-GCC-64/bin:/mnt/c/Program Files/Git/cmd:/mnt/c/Users/badai/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/badai/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', 'a3d11395-7437-4bc1-b899-ad41221470f2'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/badai22/tugas1_ws/build/tugas1_package'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[31.330906] (tugas1_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.333782] (tugas1_package) StdoutLine: {'line': b'-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/chatter\n'}
+[31.338215] (tugas1_package) StdoutLine: {'line': b'-- Set runtime path of "/home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/chatter" to ""\n'}
+[31.340387] (tugas1_package) StdoutLine: {'line': b'-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/display\n'}
+[31.351138] (tugas1_package) StdoutLine: {'line': b'-- Set runtime path of "/home/badai22/tugas1_ws/install/tugas1_package/lib/tugas1_package/display" to ""\n'}
+[31.351653] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/package_run_dependencies/tugas1_package\n'}
+[31.352646] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/parent_prefix_path/tugas1_package\n'}
+[31.352932] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.sh\n'}
+[31.353141] (tugas1_package) StdoutLine: {'line': b'-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/ament_prefix_path.dsv\n'}
+[31.353793] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.sh\n'}
+[31.354280] (tugas1_package) StdoutLine: {'line': b'-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/environment/path.dsv\n'}
+[31.354892] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.bash\n'}
+[31.355235] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.sh\n'}
+[31.355384] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.zsh\n'}
+[31.355507] (tugas1_package) StdoutLine: {'line': b'-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/local_setup.dsv\n'}
+[31.356053] (tugas1_package) StdoutLine: {'line': b'-- Installing: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.dsv\n'}
+[31.356685] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/ament_index/resource_index/packages/tugas1_package\n'}
+[31.357128] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig.cmake\n'}
+[31.357301] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/cmake/tugas1_packageConfig-version.cmake\n'}
+[31.357531] (tugas1_package) StdoutLine: {'line': b'-- Up-to-date: /home/badai22/tugas1_ws/install/tugas1_package/share/tugas1_package/package.xml\n'}
+[31.362011] (tugas1_package) CommandEnded: {'returncode': 0}
+[31.366286] (-) TimerEvent: {}
+[31.428935] (tugas1_package) JobEnded: {'identifier': 'tugas1_package', 'rc': 0}
+[31.432830] (-) EventReactorShutdown: {}
