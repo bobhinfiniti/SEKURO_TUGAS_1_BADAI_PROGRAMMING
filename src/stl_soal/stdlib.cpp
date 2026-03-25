@@ -4,10 +4,6 @@
 
 using namespace std;
 
-// Program menghitung frekuensi angka
-// Contoh input:
-// 5
-// 2 1 2 3 1
 int main() {
     int n, val;
     cin >> n;
